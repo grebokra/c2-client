@@ -14,8 +14,8 @@ def get_description():
 
 
 install_requires = [
-    "boto3 @ git+https://github.com/C2Devel/boto3.git@develop#egg=boto3",
-    "botocore @ git+https://github.com/C2Devel/botocore.git@develop#egg=botocore",
+    "boto3 @ git+https://github.com/C2Devel/boto3.git@tags/1.17.14-ROCKIT6#egg=boto3",
+    "botocore @ git+https://github.com/C2Devel/botocore.git@tags/1.20.14-ROCKIT51#egg=botocore",
     "inflection==0.3.1",
 ]
 
